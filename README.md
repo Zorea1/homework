@@ -1,3 +1,3 @@
 # homework
-Zhou Mingyi
-编程作业（周明宜）在branch的homework分支里
+Zhou Mingyi（周明宜）
+编程作业在branch的homework分支里
