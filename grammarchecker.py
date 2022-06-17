@@ -50,8 +50,7 @@ def checkIf(i):
         countiferror += 1
         print("if语法错误")       
 def grammarChecker():   #主程序
-    #text = open(input("请输入要检查的代码的txt文件地址:"),"r").read()
-    text = open("桌面/homework/menu.txt","r").read()
+    text = open(input("请输入要检查的代码的txt文件地址:"),"r").read()
     global words
     words = text.split()   
     wordlist = {"for","try","if"}
@@ -60,5 +59,4 @@ def grammarChecker():   #主程序
     checkTxt()
     print("语法检查完毕，共计{}个'for'错误,{}个'try'错误,{}个'if'错误".
         format(countforerror,counttryerror,countiferror))    
-    #print (words)  
-#grammarChecker()       
+     
