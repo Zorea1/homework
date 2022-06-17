@@ -18,13 +18,13 @@ def getText(url):   #输出网页内容
         for i in range(len(urls)):  #递归方法遍历所有网页
             if urls[i] not in allurls:  #访问过的超链接不再访问，避免嵌套
                 allurls.append(urls[i])
-                getHtmlText(urls[i])
+                getText(urls[i])
     except:
         return " "
 def getHtmlText():  #主程序
     url=input("请输入一个网址：")
     global allurls
     allurls=[]  
-    getHtmlText(url)
+    getText(url)
       
 
