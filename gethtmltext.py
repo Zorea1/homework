@@ -26,5 +26,6 @@ def getHtmlText():  #主程序
     global allurls
     allurls=[]  
     getText(url)
+    allurls=[]  #释放列表数据
       
 
