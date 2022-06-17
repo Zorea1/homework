@@ -73,3 +73,4 @@ def setWordSize():
         wordsize=input("请设置字体大小：")
     except NameError:
        print("输入有误，请输入一个整数！")
+wordsize = 18 #初始化绘制七段数码管字体大小    
