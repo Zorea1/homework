@@ -44,6 +44,8 @@ def displayMainMenu():
         print("正在执行<语法检查器>程序......")
         grammarchecker.grammarChecker()
         displayMainMenu()      
+    else ：
+        print("输入有误")
 #显示七段数码管菜单界面
 def displaySubMenu():
     ans3=input("""
@@ -68,5 +70,7 @@ def displaySubMenu():
         displaySubMenu()
     elif ans3 =='5':
         displayMainMenu()
+    else ：
+        print("输入有误")
 def menu() :  #主程序
    displayMainMenu()    
